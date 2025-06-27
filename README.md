@@ -124,7 +124,7 @@ Tanmay Santosh Khairnar
 
 
 
-### 📊 Task 3: Writing Basic SELECT Queries (PostgreSQL)
+# 📊 Task 3: Writing Basic SELECT Queries (PostgreSQL)
 
  🎯 Objective
 Learn to **extract and filter data** using:
