@@ -168,3 +168,4 @@ ALTER COLUMN stock SET DEFAULT 0;
 
 DELETE FROM customers
 WHERE customer_id = 5;
+ 
