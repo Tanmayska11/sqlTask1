@@ -235,8 +235,98 @@ Tanmay Santosh Khairnar
 ✅ Run your `queries.sql` to ensure all outputs are as expected.  
 ✅ Push to GitHub:
 
-```bash
-git add README.md
-git commit -m "Added README for Task 3: SELECT queries and filtering"
+
+
+# 📊 Task 4: Aggregate Functions and Grouping (PostgreSQL)
+
+## 🎯 Objective
+Use aggregate functions and grouping to **summarize and analyze data** from the e-commerce database.
+
+---
+
+## 🛠 Tools
+- PostgreSQL (pgAdmin / DB Fiddle)
+- SQL (Aggregation, Grouping)
+
+---
+
+## 📄 Files
+- `queries.sql` – contains:
+  - `SUM`, `AVG`, `COUNT`, `MAX`, `MIN` functions
+  - `GROUP BY` for categorization
+  - `HAVING` for filtering groups
+  - Examples with numeric columns for aggregation
+
+---
+
+## 🚀 What This Task Covers
+
+✅ Applying **aggregate functions**:
+- `COUNT(*)` and `COUNT(column)`
+- `SUM(column)`
+- `AVG(column)`
+- `MAX(column)` and `MIN(column)`
+- `ROUND()` for formatting
+
+✅ Using **`GROUP BY`** to group data.
+
+✅ Using **`HAVING`** to filter aggregated groups.
+
+✅ Combining grouping and ordering for clear analysis.
+
+---
+
+## 🧪 How to Run
+
+1️⃣ Ensure your PostgreSQL database has data from **Tasks 1 & 2**.  
+2️⃣ Open `queries.sql` in pgAdmin Query Tool or DB Fiddle.  
+3️⃣ Execute the queries to view aggregated summaries.
+
+---
+
+## ❓ Interview Concepts Practiced
+
+1. **What is `GROUP BY`?** Used to group rows with the same values for aggregation.
+2. **Difference between `WHERE` and `HAVING`?**
+   - `WHERE` filters **rows before aggregation.**
+   - `HAVING` filters **groups after aggregation.**
+3. **`COUNT(*)` vs `COUNT(column)`?**
+   - `COUNT(*)`: Counts all rows.
+   - `COUNT(column)`: Counts non-NULL values in that column.
+4. **Group by multiple columns?** Yes, using `GROUP BY col1, col2`.
+5. **What is `ROUND()`?** Used to round numeric values to specified decimal places.
+6. **Find highest salary by department?** Using `MAX(salary)` grouped by department.
+7. **Default `GROUP BY` behavior?** Groups in ascending order by default.
+8. **What are `AVG` and `SUM`?** `AVG`: average value, `SUM`: total sum of a column.
+9. **Counting distinct values?** Using `COUNT(DISTINCT column)`.
+10. **What is an aggregate function?** A function that performs calculations on a set of values, returning a single value.
+
+---
+
+## 👨‍💻 Author
+**Tanmay Santosh Khairnar**
+
+---
+
+## ✅ Status
+✅ **Completed Task 4: Aggregation and Grouping on PostgreSQL e-commerce dataset for structured analysis.**
+✅ Next Steps:
+1️⃣ Copy queries.sql and README.md into your repository under:
+
+
+ecommerce-database-schema/
+├── schema.sql
+├── data.sql
+├── queries.sql          ✅ <-- Task 3 queries
+├── aggregation.sql      ✅ <-- Task 4 queries (or queries.sql extended)
+├── ER_diagram.png
+└── README.md            ✅ <-- updated for Task 4
+2️⃣ Run the queries in pgAdmin or DB Fiddle for validation.
+3️⃣ Push to GitHub:
+
+--bash
+
+git add queries.sql README.md
+git commit -m "Task 4: Aggregate functions and grouping queries"
 git push
 
