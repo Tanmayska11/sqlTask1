@@ -128,3 +128,123 @@ Tanmay Santosh Khairnar
 git add README.md
 git commit -m "Added README for Task 2: Data Insertion and Null Handling"
 git push
+
+
+---
+
+### 📊 Task 3: Writing Basic SELECT Queries (PostgreSQL)
+
+ 🎯 Objective
+Learn to **extract and filter data** using:
+- `SELECT`
+- `WHERE`
+- `ORDER BY`
+- `LIMIT`
+within your **e-commerce PostgreSQL database** for clear, structured data retrieval.
+
+---
+
+### 🛠 Tools Used
+- PostgreSQL (pgAdmin / DB Fiddle)
+- SQL (Data Query Language - DQL)
+
+---
+
+### 📄 Files
+- `queries.sql` – contains:
+  - Basic `SELECT` queries on multiple tables
+  - Filtering with `WHERE`, `AND`, `OR`, `LIKE`, `BETWEEN`
+  - Sorting with `ORDER BY ASC/DESC`
+  - Limiting results with `LIMIT`
+  - Aliasing and using `DISTINCT`
+
+---
+
+### 🚀 What This Task Covers
+
+✅ **Basic Data Retrieval**:
+
+SELECT * FROM table_name;
+SELECT column1, column2 FROM table_name;
+
+✅ Filtering with conditions:
+
+WHERE for filtering rows.
+
+AND, OR for combining conditions.
+
+LIKE '%value%' for pattern matching.
+
+BETWEEN value1 AND value2 for ranges.
+
+✅ Sorting:
+
+
+ORDER BY column ASC;   -- Default
+ORDER BY column DESC;  -- Descending
+
+✅ Limiting Rows:
+
+LIMIT n;
+
+✅ Aliasing Columns:
+
+SELECT column AS alias_name FROM table_name;
+
+✅ Using DISTINCT to remove duplicates:
+
+SELECT DISTINCT column FROM table_name;
+
+✅ Using IN for multiple match conditions
+SELECT * FROM table_name WHERE column IN (value1, value2);
+
+✅ Simple Joins for cross-table data extraction.
+
+🧪 How to Run
+1️⃣ Ensure your Task 1 and Task 2 data are in your PostgreSQL database.
+2️⃣ Open queries.sql in pgAdmin Query Tool or DB Fiddle.
+3️⃣ Execute the script to see filtered, sorted, and limited query outputs.
+4️⃣ Experiment by modifying filters, conditions, and limits for practice.
+
+❓ Interview Concepts Practiced
+
+What does SELECT * do? Retrieves all columns.
+
+How do you filter rows? Using WHERE.
+
+What is LIKE '%value%'? Pattern-based filtering.
+
+What is BETWEEN used for? Filtering ranges.
+
+How do you limit output rows? Using LIMIT.
+
+Difference between = and IN. = for single match, IN for multiple.
+
+How to sort in descending order? Using ORDER BY column DESC.
+
+What is aliasing? Renaming columns using AS.
+
+Explain DISTINCT. Removes duplicate values.
+
+What is the default sort order? Ascending (ASC).
+
+👨‍💻 Author
+Tanmay Santosh Khairnar
+
+✅ Status
+✅ Completed Task 3: Querying, filtering, sorting, and practicing extraction in PostgreSQL.
+
+
+
+---
+
+### 📌 Next Steps:
+✅ Copy this `README.md` into your repository.  
+✅ Run your `queries.sql` to ensure all outputs are as expected.  
+✅ Push to GitHub:
+
+```bash
+git add README.md
+git commit -m "Added README for Task 3: SELECT queries and filtering"
+git push
+
