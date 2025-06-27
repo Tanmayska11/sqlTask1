@@ -121,16 +121,8 @@ Tanmay Santosh Khairnar
 
 ---
 
-### 📌 Next:
-✅ Copy and paste this `README.md` into your `ecommerce-database-schema` repository for Task 2.  
-✅ Commit and push:
-```bash
-git add README.md
-git commit -m "Added README for Task 2: Data Insertion and Null Handling"
-git push
 
 
----
 
 ### 📊 Task 3: Writing Basic SELECT Queries (PostgreSQL)
 
@@ -144,13 +136,13 @@ within your **e-commerce PostgreSQL database** for clear, structured data retrie
 
 ---
 
-### 🛠 Tools Used
+## 🛠 Tools Used
 - PostgreSQL (pgAdmin / DB Fiddle)
 - SQL (Data Query Language - DQL)
 
 ---
 
-### 📄 Files
+## 📄 Files
 - `queries.sql` – contains:
   - Basic `SELECT` queries on multiple tables
   - Filtering with `WHERE`, `AND`, `OR`, `LIKE`, `BETWEEN`
@@ -160,7 +152,7 @@ within your **e-commerce PostgreSQL database** for clear, structured data retrie
 
 ---
 
-### 🚀 What This Task Covers
+## 🚀 What This Task Covers
 
 ✅ **Basic Data Retrieval**:
 
@@ -200,13 +192,13 @@ SELECT * FROM table_name WHERE column IN (value1, value2);
 
 ✅ Simple Joins for cross-table data extraction.
 
-🧪 How to Run
+## 🧪 How to Run
 1️⃣ Ensure your Task 1 and Task 2 data are in your PostgreSQL database.
 2️⃣ Open queries.sql in pgAdmin Query Tool or DB Fiddle.
 3️⃣ Execute the script to see filtered, sorted, and limited query outputs.
 4️⃣ Experiment by modifying filters, conditions, and limits for practice.
 
-❓ Interview Concepts Practiced
+## ❓ Interview Concepts Practiced
 
 What does SELECT * do? Retrieves all columns.
 
@@ -228,7 +220,7 @@ Explain DISTINCT. Removes duplicate values.
 
 What is the default sort order? Ascending (ASC).
 
-👨‍💻 Author
+## 👨‍💻 Author
 Tanmay Santosh Khairnar
 
 ✅ Status
