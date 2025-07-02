@@ -1,6 +1,6 @@
 # sqlTask1
 
-# E-commerce Database Schema (PostgreSQL)
+## E-commerce Database Schema (PostgreSQL)
 
 ## 🎯 Objective
 Design a normalized PostgreSQL database for an e-commerce system using pgAdmin.
@@ -324,9 +324,77 @@ ecommerce-database-schema/
 2️⃣ Run the queries in pgAdmin or DB Fiddle for validation.
 3️⃣ Push to GitHub:
 
---bash
+---
 
-git add queries.sql README.md
-git commit -m "Task 4: Aggregate functions and grouping queries"
-git push
+# 🔗 Task 5: SQL Joins (PostgreSQL)
+
+## 🎯 Objective
+Practice **combining data from multiple tables** using:
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
+- FULL OUTER JOIN
+within your **e-commerce database** for structured data merging.
+
+---
+
+## 🛠 Tools
+- PostgreSQL (pgAdmin / DB Fiddle)
+- SQL (Join operations)
+
+---
+
+## 📄 Files
+- `joins.sql` – contains:
+  - INNER, LEFT, RIGHT, FULL OUTER joins
+  - CROSS JOIN and SELF JOIN examples
+  - Multi-table joins with aggregation
+  - Practice of filtering joined data using `WHERE`
+
+---
+
+## 🚀 What This Task Covers
+
+✅ **INNER JOIN:** Matching rows across tables.  
+✅ **LEFT JOIN:** All from left + matched from right, NULL if no match.  
+✅ **RIGHT JOIN:** All from right + matched from left, NULL if no match.  
+✅ **FULL OUTER JOIN:** All from both tables, matching where possible.  
+✅ **CROSS JOIN:** Cartesian product of rows.  
+✅ **SELF JOIN:** Joining a table with itself for comparisons.  
+✅ Combining JOINs with filtering (`WHERE`).  
+✅ Using JOINs with aggregation for grouped insights.
+
+---
+
+## 🧪 How to Run
+
+1️⃣ Ensure your PostgreSQL database is populated with previous tasks.  
+2️⃣ Open `joins.sql` in pgAdmin Query Tool or DB Fiddle.  
+3️⃣ Execute the script to view results for each join type.
+
+---
+
+## ❓ Interview Questions Practiced
+
+1. **INNER vs LEFT JOIN?** INNER: only matches. LEFT: all from left, matched or NULL.
+2. **FULL OUTER JOIN?** Combines all records from both, matching where possible.
+3. **Can joins be nested?** Yes, using multiple JOINs in a query.
+4. **Joining >2 tables?** Yes, chaining JOIN conditions.
+5. **What is a CROSS JOIN?** Produces Cartesian product.
+6. **What is a NATURAL JOIN?** Joins on columns with the same name automatically.
+7. **Join without foreign key?** Yes, as long as logical condition exists.
+8. **What is a self-join?** Joining a table with itself for comparison.
+9. **What causes Cartesian product?** CROSS JOIN or missing ON condition in joins.
+10. **Optimizing joins?** Use indexes, minimize unnecessary columns, filter early.
+
+---
+
+## 👨‍💻 Author
+**Tanmay Santosh Khairnar**
+
+---
+
+## ✅ Status
+✅ **Completed Task 5: Practiced SQL joins for structured multi-table data extraction.**
+
 
